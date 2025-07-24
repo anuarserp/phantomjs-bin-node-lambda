@@ -377,3 +377,6 @@ cd libs && zip -r ../phantomjs-libs.zip . && cd ..
 # Subir a AWS
 aws lambda publish-layer-version --layer-name phantomjs-libs --zip-file fileb://phantomjs-libs.zip --compatible-runtimes nodejs20.x
 ```
+
+## RECURSOS
+- [How do you install phantomjs on AWS lambda?](https://stackoverflow.com/questions/56795567/how-do-you-install-phantomjs-on-aws-lambda)
